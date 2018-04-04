@@ -1,0 +1,12 @@
+<div class="btn btn-primary"></div>
+<div class="btn btn-primary"></div>
+<div class="btn btn-primary"></div>
+<div class="btn btn-primary"></div>
+<div class="btn btn-primary"></div>
+<div class="btn btn-primary"></div>
+
+request.get('http://ustr-erl2-2357.na.uis.unisys.com:4000/channels/fedchannel/chaincodes/uni-fed/') .query('peer=peer1')
+.query( 'args=["query","{"selector":{"docType":"hlFederalEvent"}}"]') .query('chaincodeVersion=v0') .query('fcn=query') .sortQuery()
+.then(function(resp){ console.log(resp); }) http://ustr-erl2-2358.na.uis.unisys.com:4000/channels/tradechannel/chaincodes/uni-trade-finance
+{ "peers": [ "localhost:7051" ], "fcn":"invoke", "args": [ "FINANCEINIT", "{\"eventTime\":\"2017-03-25T17:10:16Z\",\"uuid\":\"uuid-t2\",\"source\":\"TX,
+USA\",\"destination\":\"MUM,IND\"}" ] }

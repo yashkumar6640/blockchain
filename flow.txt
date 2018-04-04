@@ -1,0 +1,16 @@
+1. I will write all the quesries which needs to be triggered when the page is loading. 
+	this is basically UUID + Step function
+	1. IF the response what u get is blank --> You need to enable click submit button (USer should be able to submit)
+	2. If you get the response (not a blank response) --> Submit button should be disabled --> load the values which you have got in the response 
+
+2. On click of UUID --> you need to show  a template (tabular comlum) 
+	sl no, Event time,Event type and action (admin - hardcoded)
+
+
+
+ vendorName: '',
+      noOfSensor:'',
+      costOfSensor:'',
+      deliveryDate:'',
+      deliveryType:'',
+      exporterBank: ''

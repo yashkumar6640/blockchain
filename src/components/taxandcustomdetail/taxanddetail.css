@@ -1,0 +1,10 @@
+.form-bill-of-lading {
+    width: auto;
+    height: 77vh;
+    overflow-y: scroll;
+    padding-top: 10px;
+}
+
+.input-div {
+    width:60%;
+}

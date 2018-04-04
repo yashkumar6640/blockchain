@@ -1,0 +1,128 @@
+.frontpage-navigator{
+  border:1px solid gray;
+  background-color: dodgerblue;
+  height:25vh;
+}
+
+.fa-money{
+  color: lightblue;
+  font-size: 24px;
+}
+
+.list-box{
+  height:35vh;
+  border:1px solid gray;
+  margin: 5px;
+}
+.list-box-rightview{
+  border:1px solid gray;
+  margin: 5px 0;
+  background: lightskyblue;
+  height: 71vh;
+}
+body{
+  /* background: dimgray; */
+}
+
+.timeline-hide{
+  display: none;
+}
+
+.timeline-show{
+  animation-duration: 1s;
+    animation-name: slidefromright;
+
+}
+@keyframes slidefromright{
+
+  from{
+width: 300%;
+  }
+
+  to{
+width: 100%;  }
+}
+
+.hide-front-page{
+display:none;
+}
+
+.text-default{
+  color: white;
+}
+
+.fa-university{
+  color: white;
+}
+
+.fa-bank,.fa{
+  font-size: 2vw;
+  color: white;
+  /* margin:0 40px; */
+}
+.marg{
+  margin:0 40px;
+}
+.centerSVG{
+  width: 70%;
+  margin:0 auto;
+}
+
+.heading{
+  color: white;
+  background: dodgerblue;
+  height: 10vh;
+  width: 100%;
+  font-size: 5vh;
+
+}
+
+.loginform{
+  position:absolute;
+  top:50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width:30vw;
+  height:30vh;
+}
+
+.loginInput,input{
+  width: 30vw;
+}
+.loginInput>input{
+  border:none;
+  padding: 5px;
+  outline: none;
+}
+.loginInput{
+  border-bottom: 1px solid dodgerblue;
+}
+.loginform .form-group label>span{
+  color:red;
+}
+
+.uuid-button{
+  position:fixed;
+  right: 0;
+  top:0;
+  margin: 5px;
+  font-size: 2vh;
+}
+
+.faComplete{
+  color: green;
+}
+.fa-check{
+  color: green;
+  animation-name: slowmo;
+  animation-duration: 4s;
+}
+
+@keyframes slowmo{
+  from{
+    opacity: 0
+  }
+  to{
+    opacity: 1
+  }
+}
